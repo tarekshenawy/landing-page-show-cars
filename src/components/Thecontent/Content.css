@@ -1,0 +1,51 @@
+.content{
+   margin: 80px auto 20px;
+   font-family:monospace;
+   max-width: 95%;
+  
+}
+.content p{
+    font-size: 25px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: capitalize;
+}
+.details{
+    display: flex;
+    margin-left: 10px;
+   background-color: #fff;
+   width: 180px;
+   padding:3px;
+   border-radius: 15px;
+  
+   
+}
+.details img{
+    width: 30px;
+    height: 30px;
+    margin-top: 14px;
+    margin-left: 4px;
+   
+}
+.details p{
+    font-size: 15px;
+    font-weight: bold;
+}
+ul{
+    display: flex;
+    list-style:none;
+}
+ul li {
+  cursor: pointer;
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+}
+.icons p img{
+    width: 40px;
+    height: 40px;
+    margin:12px 200px 5px 2px;
+    cursor: pointer;
+
+}
